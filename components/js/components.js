@@ -1,1 +1,4 @@
-var 
+$(function(){
+	console.log('DOM Loaded');
+
+});
