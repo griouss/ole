@@ -1,13 +1,40 @@
-.testimonials {
-  padding:4em 0;
-  text-align: center;
- }
- .testimonials h2 {
+.section_testimonials{
+	text-align: center;
+  	display: inline-block;
+}
+ .section_testimonials h2 {
   color:#009be8;
   font-weight: 300;
  }
- 
- .testimonials p {
+ .section_testimonials p {
   color:#9d9d9d;
   font-size:1.2em;
+ }
+ .testimonials {
+  padding:4em 0;
+  text-align: center;
+  width: 15%;
+ }
+ .testimonials blockquote {
+  border:none;
+  text-align: justify;
+  padding:0 1.5em 0 0;
+  font-size:1em;
+  color:#4d4d4d;
+  line-height: 1.4;
+  margin: 1em 0;
+ }
+  .testimonials .avatar img {
+  border-radius: 50%;
+  float:left;
+  display:inline;
+  margin-right:1em;
+  width:65px;
+  height:65px;
+ }
+ .testimonials .avatar p {
+  text-align: left;
+  padding-top:1em;
+  color:#5d5d5d;
+  font-weight: 900;
  }
